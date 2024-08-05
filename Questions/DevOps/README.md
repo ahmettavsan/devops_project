@@ -18,3 +18,16 @@ Maven, projelerin derleme, bağımlılık yönetimi, dağıtım ve raporlama gib
 32.Docker Nedir? Docker containerları yönetmemizi sağlayan teknolojidir.Containerlar ise uygulamaları izole bir şekilde uygulama ve bağımlılıklarının bir arada bulunduğu şekilde paketlenmiş halidir. Bu şekilde platformdan bağımsız şekilde istenilen yerlerde çalıştırılabilir Container ===>> (Code Base) + Dependencies Docker Deamon: Docker CLI : Docker CLI, Docker ile etkileşim kurmak için kullanılan komut satırı aracıdır. Genellikle docker komutuyla başlatılır.
 
 ![alt text](image.png)
+
+49-Datadog Monitoring nedir ?
+
+50-Kanban nedir ?
+Yalın üretim tekniklerinden birisidir ve üretim süreçlerini yönetmek için kullanılan görsel bir yöntemdir. Japonca kökenli "kanban" kelimesi, "göz" ve "işaret" anlamına gelir ve "görsel işaret" veya "görsel kart" olarak çevrilebilir. Kanban, iş akışını ve üretim sürecini görselleştirir, böylece hangi ürünlerin ne zaman ve ne miktarda üretildiğini kontrol eder. Çekme sistemiyle, iş süreçlerini ve projeleri daha verimli hale getirmek için kullanılan bu yöntem, işlerin düzenli ve verimli bir şekilde yönetilmesini sağlar.
+
+51-Scrum ve Waterfall nedir ?
+
+Scrum
+Agile proje yönetim metodolojilerinden biridir. Kompleks yazılım süreçlerinin yönetilmesi için kullanılır. Bunu yaparken bütünü parçalayan; tekrara dayalı bir yöntem izler. Düzenli geri bildirim ve planlamalarla hedefe ulaşmayı sağlar. Bu anlamda ihtiyaca yönelik ve esnek bir yapısı vardır. Müşteri ihtiyacına göre şekillendiği için müşterinin geri bildirimine göre yapılanmayı sağlar. İletişim ve takım çalışması çok önemlidir.
+
+Waterfall
+Yazılım geliştirmede yaygın olarak kullanılan geleneksel bir proje yönetimi metodolojisidir. Bu yöntemde proje, sıralı bir dizi aşamadan oluşur ve her aşama tamamlandıktan sonra bir sonraki aşamaya geçilir. Adını, her bir aşamanın aşağıdakine "düştüğü" bir şelale metaforundan alır.
