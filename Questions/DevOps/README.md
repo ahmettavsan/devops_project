@@ -31,6 +31,11 @@ Maven, projelerin derleme, bağımlılık yönetimi, dağıtım ve raporlama gib
 
 32.Docker Nedir? Docker containerları yönetmemizi sağlayan teknolojidir.Containerlar ise uygulamaları izole bir şekilde uygulama ve bağımlılıklarının bir arada bulunduğu şekilde paketlenmiş halidir. Bu şekilde platformdan bağımsız şekilde istenilen yerlerde çalıştırılabilir Container ===>> (Code Base) + Dependencies Docker Deamon: Docker CLI : Docker CLI, Docker ile etkileşim kurmak için kullanılan komut satırı aracıdır. Genellikle docker komutuyla başlatılır.
 
+Stages:
+docker search nginx
+docker pull nginx
+docker run -p 6666:80 -d --rm --name web_name2 nginx
+
 ![alt text](image.png)
 
 49-Datadog Monitoring nedir ?
@@ -45,3 +50,33 @@ Agile proje yönetim metodolojilerinden biridir. Kompleks yazılım süreçlerin
 
 Waterfall
 Yazılım geliştirmede yaygın olarak kullanılan geleneksel bir proje yönetimi metodolojisidir. Bu yöntemde proje, sıralı bir dizi aşamadan oluşur ve her aşama tamamlandıktan sonra bir sonraki aşamaya geçilir. Adını, her bir aşamanın aşağıdakine "düştüğü" bir şelale metaforundan alır.
+
+SonarQube nedir ?
+SonarQube, projelerin kod kalitesini analiz etmek, statik kod analizi yapmak ve kod kalitesini artırmak için kullanılan bir araçtır. Projelerin kodunda bulunan potansiyel hataları, kod tekrarlarını, kod karmaşıklığını, güvenlik açıklarını ve diğer kod kalitesi parametrelerini değerlendirmeye yardımcı olur.
+
+Gitlab Nedir?
+GitLab, web tabanlı bir DevOps platformudur ve Git versiyon kontrol sistemini kullanarak yazılım geliştirme projelerinin yönetimini sağlar. GitLab, yazılım geliştirme yaşam döngüsünün tüm aşamalarını destekler ve entegre çözümler sunar.
+-Git Deposu Yönetimi
+-CI&CD
+-Kod İncelemesi ve İşbirliği
+-WIKI & DOKUMANTASYON
+
+Gitlab CI/CD nedir ?
+GitLab CI/CD (Continuous Integration/Continuous Deployment), yazılım geliştirme sürecinin otomasyonunu sağlayan entegre bir GitLab özelliğidir. CI/CD, yazılım projelerinin sürekli entegrasyonu, testi ve dağıtımını otomatikleştirmek için kullanılır.
+
+GitLab Runner nedir ?
+GitLab Runner, GitLab CI/CD işlerini çalıştırmak için kullanılan bir ajan uygulamasıdır. GitLab Runner, belirli bir projenin .gitlab-ci.yml dosyasında tanımlanan işleri çalıştırır ve sonuçları GitLab sunucusuna geri bildirir. Farklı ortamlarda (örneğin, yerel makinelerde, sanal makinelerde, Docker konteynerlerinde) çalışabilen çok yönlü bir araçtır.
+
+SSH nedir ?
+SSH (Secure Shell), bir bilgisayar ile başka bir bilgisayar arasında güvenli bir şekilde iletişim kurmaya izin veren bir ağ protokolüdür.
+
+- GitLab ve GitHub SSH-keygen oluşturarak bilgisayarına bağlayın?
+
+Prometheus nedir, Jenkins nedir ?
+Jenkins, açık kaynaklı bir otomasyon sunucusudur ve sürekli entegrasyon (CI) ve sürekli dağıtım (CD) işlemlerini otomatikleştirmek için kullanılır. Jenkins, yazılım geliştirme projelerinin derleme, test, dağıtım ve diğer süreçlerini otomatikleştirmek için geniş bir eklenti ekosistemine sahiptir.
+
+Ansible nedir ?
+48.adım: - Kubernates nedir ?
+49.adım: - Datadog Monitoring nedir ?
+50.adım: - Kanban nedir ?
+51.adım: - Scrum, Kanban ve waterfall nedir ?
