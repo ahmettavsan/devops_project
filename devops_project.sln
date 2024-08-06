@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker-Compose-SonarQube", "Docker-Compose-SonarQube", "{5628134D-5F47-4B60-8C55-28C65E5D32B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "advertisements-app", "advertisements-app", "{C778DCA2-20A9-4EBD-85F7-EB3B17DAA9DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "example-dotnet-app", "Docker-Compose-SonarQube\advertisements-app\example-dotnet-app\example-dotnet-app.csproj", "{69495BA2-07B7-46C1-AAAA-1ABE5EBF76E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kaizen", "Kaizen", "{0FFDAFBF-E0CF-4A92-8C2E-38525C934381}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "optgenerateproject", "Docker-Compose-SonarQube\advertisements-app\Kaizen\optgenerateproject\optgenerateproject.csproj", "{15C769CD-DAC5-4471-9EE0-4A2704A9C84F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69495BA2-07B7-46C1-AAAA-1ABE5EBF76E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69495BA2-07B7-46C1-AAAA-1ABE5EBF76E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69495BA2-07B7-46C1-AAAA-1ABE5EBF76E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69495BA2-07B7-46C1-AAAA-1ABE5EBF76E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C769CD-DAC5-4471-9EE0-4A2704A9C84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C769CD-DAC5-4471-9EE0-4A2704A9C84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C769CD-DAC5-4471-9EE0-4A2704A9C84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C769CD-DAC5-4471-9EE0-4A2704A9C84F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C778DCA2-20A9-4EBD-85F7-EB3B17DAA9DC} = {5628134D-5F47-4B60-8C55-28C65E5D32B4}
+		{69495BA2-07B7-46C1-AAAA-1ABE5EBF76E7} = {C778DCA2-20A9-4EBD-85F7-EB3B17DAA9DC}
+		{0FFDAFBF-E0CF-4A92-8C2E-38525C934381} = {C778DCA2-20A9-4EBD-85F7-EB3B17DAA9DC}
+		{15C769CD-DAC5-4471-9EE0-4A2704A9C84F} = {0FFDAFBF-E0CF-4A92-8C2E-38525C934381}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07B7CF33-6F74-4F98-B7BD-34D95A816BAA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/.sonarqube/out/0

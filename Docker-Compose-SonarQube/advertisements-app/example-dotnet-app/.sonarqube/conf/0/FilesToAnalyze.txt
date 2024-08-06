@@ -1,0 +1,10 @@
+﻿/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/Controllers/WeatherForecastController.cs
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/Program.cs
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/WeatherForecast.cs
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/obj/Debug/net7.0/example-dotnet-app.GlobalUsings.g.cs
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/obj/Debug/net7.0/example-dotnet-app.AssemblyInfo.cs
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/obj/Debug/net7.0/example-dotnet-app.MvcApplicationPartsAssemblyInfo.cs
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/appsettings.Development.json
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/appsettings.json
+/Users/ahmet/Desktop/devops_project/Docker-Compose-SonarQube/advertisements-app/example-dotnet-app/Properties/launchSettings.json

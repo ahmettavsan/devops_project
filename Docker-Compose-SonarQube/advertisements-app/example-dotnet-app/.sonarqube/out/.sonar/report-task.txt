@@ -1,0 +1,6 @@
+projectKey=kaizen
+serverUrl=http://localhost:9000
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:9000/dashboard?id=kaizen
+ceTaskId=7b837ce4-fe8f-4062-b6c0-8959160f7dc3
+ceTaskUrl=http://localhost:9000/api/ce/task?id=7b837ce4-fe8f-4062-b6c0-8959160f7dc3
