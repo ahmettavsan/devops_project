@@ -1,4 +1,7 @@
 1-DevOps kültürü:Yazılım geliştirme ve dağıtım süreçlerini belli kurallar çerçevesinde gerçekleştirmemizi sağlayan bu süreçleri otomatize edip birbirine bağlayan kültürdü Dev => Development yani geliştirme aşamasını temsil ederken Ops => Operations ise ürünün yayınlanması kullanıma alınması ve kullanılırken durumunun izlenmesi gibi süreçleri ifade eder.
+DevOps, yazılım geliştirme ve bilgi teknolojileri operasyonları (IT operations) arasındaki işbirliğini ve iletişimi güçlendirmeyi amaçlayan bir kültür, işbirliği metodolojisi ve iş uygulama yaklaşımıdır. “Development” (Geliştirme) ve “Operations” (Operasyonlar) kelimelerinin birleşiminden oluşan DevOps, yazılımın hızlı bir şekilde teslim edilmesi, yazılımın kalitesinin artırılması, işbirliği ve sürekli iyileştirme gibi hedefleri destekler.
+
+DevOps, geliştirme ve operasyon ekipleri arasında duvarları yıkmayı, işbirliğini artırmayı ve yazılım teslimat süreçlerini optimize etmeyi amaçlar. Bu amaçlara ulaşmak için otomasyon, sürekli entegrasyon ve sürekli teslimat gibi pratikleri benimser.
 
 2- DevOps, "Development" (Geliştirme) ve "Operations" (Operasyonlar) kelimelerinin birleşiminden oluşan bir terimdir.
 
@@ -76,7 +79,21 @@ Prometheus nedir, Jenkins nedir ?
 Jenkins, açık kaynaklı bir otomasyon sunucusudur ve sürekli entegrasyon (CI) ve sürekli dağıtım (CD) işlemlerini otomatikleştirmek için kullanılır. Jenkins, yazılım geliştirme projelerinin derleme, test, dağıtım ve diğer süreçlerini otomatikleştirmek için geniş bir eklenti ekosistemine sahiptir.
 
 Ansible nedir ?
-48.adım: - Kubernates nedir ?
-49.adım: - Datadog Monitoring nedir ?
-50.adım: - Kanban nedir ?
-51.adım: - Scrum, Kanban ve waterfall nedir ?
+
+Kubernates nedir ?
+Kubernetes Google tarafından GO dilinde geliştirilmiş Cloud Native Computing Foundation tarafından desteklenen mevcut konteyner haline getirilmiş uygulamalarınızı otomatik deploy etmek, sayılarını arttırıp azaltmak gibi işlemler ile birlikte yönetmenizi sağlayan bir Konteyner kümeleme (container cluster) aracıdır. Yani kısaca sayısı fazlalaşan containerları yönetmek için kullanılan araçtır yunanca dümenci anlamına geliyor .
+
+Datadog Monitoring nedir ?
+Datadog, bulut tabanlı bir izleme ve güvenlik platformudur. Datadog, uygulama performansını, altyapı durumunu ve güvenlik tehditlerini izlemek için bir dizi araç ve hizmet sunar. Genellikle DevOps ekipleri, yazılım geliştiricileri ve sistem yöneticileri tarafından kullanılır.
+
+Kanban nedir ?
+Kanban, iş süreçlerini yönetmek ve verimliliği artırmak amacıyla kullanılan bir proje yönetim metodolojisidir. Japonca kökenli bir kelime olan "Kanban", "görsel kart" anlamına gelir. İlk olarak Toyota tarafından üretim süreçlerini iyileştirmek amacıyla geliştirilmiştir. Kanban, iş akışının görsel olarak takip edilmesini ve darboğazların belirlenmesini sağlar.
+
+Scrum, Kanban ve waterfall nedir ?
+Scrum, esnek ve tekrarlamalı (iterative) bir proje yönetim metodolojisidir ve özellikle yazılım geliştirme projelerinde yaygın olarak kullanılır. Scrum, hızlı ve sürekli teslimatı hedefler ve takım çalışmasını teşvik eder.
+Kanban, iş süreçlerini görselleştirerek ve darboğazları belirleyerek verimliliği artırmayı hedefleyen bir proje yönetim metodolojisidir. Kanban, iş akışının sürekli olarak iyileştirilmesini ve yönetilmesini sağlar.
+Waterfall (Şelale) modeli, sıralı ve aşamalı bir proje yönetim metodolojisidir. Bu modelde, her aşama tamamlanmadan bir sonraki aşamaya geçilmez. Aşamalar genellikle gereksinim analizi, tasarım, geliştirme, test ve bakım şeklindedir.
+
+![alt text](image-1.png)
+
+![iterative-waterfall-agile](image-2.png)
